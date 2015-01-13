@@ -17,7 +17,7 @@ object HttpServer extends App with SimpleRoutingApp {
       path("welcome") {
         complete {
           <html>
-            <h1>"Welcome!</h1>
+            <h1>Welcome!</h1>
             <p><a href="/terminate?method=post">Stop the server</a></p>
           </html>
         }
